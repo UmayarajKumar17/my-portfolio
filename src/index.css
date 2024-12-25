@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-in {
+    @apply opacity-100 translate-y-0 blur-none scale-100;
+  }
+  
+  .animate-out {
+    @apply opacity-0 translate-y-10 blur-sm scale-95;
+  }
+
+  .transition-reveal {
+    @apply transition-all duration-700 ease-out;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
