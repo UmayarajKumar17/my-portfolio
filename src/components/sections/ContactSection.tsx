@@ -6,17 +6,17 @@ const contacts = [
   {
     name: 'GitHub',
     icon: Github,
-    url: 'https://github.com',
+    url: 'https://github.com/UmayarajKumar17',
   },
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://linkedin.com',
+    url: 'www.linkedin.com/in/umayaraj-kumar-250995307',
   },
   {
     name: 'Email',
     icon: Mail,
-    url: 'mailto:example@email.com',
+    url: 'umayaraj170706@gmail.com',
   },
 ];
 
