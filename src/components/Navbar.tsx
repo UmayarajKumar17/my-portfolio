@@ -26,7 +26,7 @@ const Navbar = () => {
               <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-pink-600 to-purple-600 opacity-75 blur group-hover:opacity-100 transition-opacity"></div>
               <Brain className="relative h-8 w-8 text-white" />
             </div>
-            <span className="ml-2 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">AI Portfolio</span>
+            <span className="ml-2 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">Portfolio</span>
           </div>
 
           <div className="hidden md:block">
